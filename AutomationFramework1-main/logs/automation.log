@@ -1,0 +1,45 @@
+06:19:32.034 [main] INFO  testCases.TC001_AccountRegistrationTest - ************Starting TC001_AccountRegistration********
+06:19:38.558 [main] INFO  testCases.TC001_AccountRegistrationTest - ********Clicked on Sign In************************
+06:19:52.243 [main] INFO  testCases.TC001_AccountRegistrationTest - *********Successfully created Account***********
+06:19:52.244 [main] INFO  testCases.TC001_AccountRegistrationTest - ******Validating logs*********
+06:19:52.380 [main] DEBUG testCases.TC001_AccountRegistrationTest - ************Finished Account Registration*********
+07:22:24.007 [main] INFO  testCases.TC001_AccountRegistrationTest - ************Starting TC001_AccountRegistration********
+07:22:30.811 [main] INFO  testCases.TC001_AccountRegistrationTest - ********Clicked on Sign In************************
+07:22:40.383 [main] INFO  testCases.TC001_AccountRegistrationTest - *********Successfully created Account***********
+07:22:40.384 [main] INFO  testCases.TC001_AccountRegistrationTest - ******Validating logs*********
+07:22:40.468 [main] DEBUG testCases.TC001_AccountRegistrationTest - ************Finished Account Registration*********
+07:23:23.487 [main] INFO  testCases.TC001_AccountRegistrationTest - ************Starting TC001_AccountRegistration********
+07:23:27.601 [main] INFO  testCases.TC001_AccountRegistrationTest - ********Clicked on Sign In************************
+07:23:33.979 [main] INFO  testCases.TC001_AccountRegistrationTest - *********Successfully created Account***********
+07:23:33.979 [main] INFO  testCases.TC001_AccountRegistrationTest - ******Validating logs*********
+07:23:34.057 [main] DEBUG testCases.TC001_AccountRegistrationTest - ************Finished Account Registration*********
+07:31:02.327 [main] INFO  testCases.TC001_AccountRegistrationTest - ************Starting TC001_AccountRegistration********
+07:31:06.387 [main] INFO  testCases.TC001_AccountRegistrationTest - ********Clicked on Sign In************************
+07:31:13.288 [main] INFO  testCases.TC001_AccountRegistrationTest - *********Successfully created Account***********
+07:31:13.289 [main] INFO  testCases.TC001_AccountRegistrationTest - ******Validating logs*********
+07:31:13.359 [main] DEBUG testCases.TC001_AccountRegistrationTest - ************Finished Account Registration*********
+07:31:20.636 [main] INFO  testCases.TC001_AccountRegistrationTest - ************Starting TC001_AccountRegistration********
+07:31:30.678 [main] INFO  testCases.TC001_AccountRegistrationTest - ********Clicked on Sign In************************
+07:31:37.906 [main] INFO  testCases.TC001_AccountRegistrationTest - *********Successfully created Account***********
+07:31:37.907 [main] INFO  testCases.TC001_AccountRegistrationTest - ******Validating logs*********
+07:31:37.980 [main] DEBUG testCases.TC001_AccountRegistrationTest - ************Finished Account Registration*********
+07:32:30.236 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ************Starting TC001_AccountRegistration********
+07:32:32.130 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ************Starting TC001_AccountRegistration********
+07:32:41.792 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ********Clicked on Sign In************************
+07:32:48.367 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ********Clicked on Sign In************************
+07:32:56.086 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - *********Successfully created Account***********
+07:32:56.087 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ******Validating logs*********
+07:32:56.178 [TestNG-tests-1] DEBUG testCases.TC001_AccountRegistrationTest - ************Finished Account Registration*********
+07:32:58.423 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - *********Successfully created Account***********
+07:32:58.423 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ******Validating logs*********
+07:32:58.532 [TestNG-tests-2] DEBUG testCases.TC001_AccountRegistrationTest - ************Finished Account Registration*********
+07:45:48.611 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ************Starting TC001_AccountRegistration********
+07:45:54.154 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ************Starting TC001_AccountRegistration********
+07:45:55.789 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ********Clicked on Sign In************************
+07:46:04.723 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ********Clicked on Sign In************************
+07:46:11.454 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - *********Successfully created Account***********
+07:46:11.454 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ******Validating logs*********
+07:46:11.888 [TestNG-tests-1] DEBUG testCases.TC001_AccountRegistrationTest - ************Finished Account Registration*********
+07:46:16.147 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - *********Successfully created Account***********
+07:46:16.147 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ******Validating logs*********
+07:46:16.230 [TestNG-tests-2] DEBUG testCases.TC001_AccountRegistrationTest - ************Finished Account Registration*********
