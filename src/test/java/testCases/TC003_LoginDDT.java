@@ -13,7 +13,7 @@ import utilities.DataProviders;
 
 public class TC003_LoginDDT extends BaseClass {
 	
-	@Test(dataProvider = "LoginData",dataProviderClass = DataProviders.class)//getting data provider
+	@Test(dataProvider = "LoginData",dataProviderClass = DataProviders.class , groups ="DataDriven")//getting data provider
 	public void verify_loginDDT(String email, String pwd,String exp)
 	{
 		
@@ -24,8 +24,8 @@ public class TC003_LoginDDT extends BaseClass {
 		hmp.clickSignUpOrLogin();
 		
 		LoginPage lg = new LoginPage(driver);
-		lg.setemail(p.getProperty("email"));
-		lg.setpassword(p.getProperty("password"));
+		lg.setemail(email);
+		lg.setpassword(pwd);
 		lg.clickLogin();
 		
 		MyAccountPage act = new MyAccountPage(driver);
@@ -41,6 +41,7 @@ public class TC003_LoginDDT extends BaseClass {
 			else {
 				Assert.assertTrue(false);
 			}
+		
 		}
 		
 		if(exp.equalsIgnoreCase("Invalid"))
@@ -58,8 +59,8 @@ public class TC003_LoginDDT extends BaseClass {
 		{
 		Assert.fail();
 		}
-		logger.info("*****************Starting TC3****************");
-	}
+		logger.info("*****************Ending TC3****************");
+}
 	
 
 }

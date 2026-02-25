@@ -14,7 +14,7 @@ public class MyAccountPage extends BasePage {
 	@FindBy(xpath ="//i[@class=\"fa fa-user\"]/following::b")
 	WebElement loggedintxt;
 	
-	@FindBy(xpath ="//a[contains(text(),' Delete Account')]")
+	@FindBy(xpath ="//a[contains(text(),' Logout')]")
 	WebElement logoutOption;
 	
 	public boolean isMyAccountPageExist()

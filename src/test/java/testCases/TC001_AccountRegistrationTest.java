@@ -18,7 +18,7 @@ import testBase.BaseClass;
 public class TC001_AccountRegistrationTest extends BaseClass {
 
 	
-	@Test
+	@Test(groups = {"Regression","Master"}) 
 	public void verify_account_registration()
 	{
 		logger.info("************Starting TC001_AccountRegistration********");
@@ -68,26 +68,5 @@ public class TC001_AccountRegistrationTest extends BaseClass {
 		logger.debug("************Finished Account Registration*********");
 		
 	}
-	public String randomeString()
-	{
-		String generatedstring1 = RandomStringUtils.randomAlphabetic(5);
-		 
-		return generatedstring1;
-	}
 	
-	public String randomeNumbers()
-	{
-		String generatedstring2 = RandomStringUtils.randomNumeric(9);
-		 
-		return generatedstring2;
-	}
-	
-	public String randomealphaNumbers()
-	{
-		String generatedstring1 = RandomStringUtils.randomAlphabetic(5);
-		String generatedstring2 = RandomStringUtils.randomNumeric(3);
-		return(generatedstring1 +"$"+generatedstring2);
-		 
-	}
-
 }

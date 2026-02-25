@@ -33,7 +33,6 @@ public class ExcelUtility {
 	public int getRowcount(String sheetName) throws IOException {
 
 		fi = new FileInputStream(path);
-		fo = new FileOutputStream(path);
 		workbook = new XSSFWorkbook(fi);
 		sheet = workbook.getSheet(sheetName);
 		

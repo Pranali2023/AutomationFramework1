@@ -11,6 +11,7 @@
         <!-- Console Appender -->
         <Console name="Console" target="SYSTEM_OUT">
             <PatternLayout pattern="${LOG_PATTERN}" />
+             
         </Console>
 
         <!-- Rolling File Appender -->
@@ -37,7 +38,7 @@
 
         <!-- Framework / Test logs -->
         <Root level="Debug">
-           
+           <AppenderRef ref="Console"/>
             <AppenderRef ref="FileLogger"/>
         </Root>
 

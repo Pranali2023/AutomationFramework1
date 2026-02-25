@@ -14,7 +14,7 @@ public class DataProviders {
 		ExcelUtility xlutil = new ExcelUtility(path); //creating object for XLutility
 		
 		int totalrows = xlutil.getRowcount("Sheet1");
-		int totalcols = xlutil.getCellCount("Sheet1",0);
+		int totalcols = xlutil.getCellCount("Sheet1",1);
 		
 		String LoginData[][] = new String[totalrows][totalcols];
 		
