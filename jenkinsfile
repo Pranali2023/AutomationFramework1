@@ -4,26 +4,26 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building the Project......'
-                bat '"D:\Jenkins\\cmd.exe" /c echo Build stage running'
+                echo 'Building the Project...'
+                powershell 'Write-Output "Build stage running"'
             }
         }
 
         stage('Test') {
             steps {
-                bat '"D:\Jenkins\\cmd.exe" /c echo Test stage running'
+                powershell 'Write-Output "Test stage running"'
             }
         }
 
         stage('Compile') {
             steps {
-                bat '"D:\Jenkins\\cmd.exe" /c echo Compile stage running'
+                powershell 'Write-Output "Compile stage running"'
             }
         }
 
         stage('Deploy') {
             steps {
-                bat '"D:\Jenkins\\cmd.exe" /c echo Deploy stage running'
+                powershell 'Write-Output "Deploy stage running"'
             }
         }
     }
