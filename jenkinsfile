@@ -2,28 +2,38 @@ pipeline {
     agent any
 
     stages {
+
+        stage('Checkout') {
+            steps {
+                echo 'Checking out source code...'
+                checkout scm
+            }
+        }
+
         stage('Build') {
             steps {
-                echo 'Build stage running'
+                echo 'Building project using Maven Wrapper'
+                bat 'mvnw.cmd clean compile'
             }
         }
 
         stage('Test') {
             steps {
-                echo 'Test stage running'
+                echo 'Running automation tests'
+                bat 'mvnw.cmd test'
             }
         }
+    }
 
-        stage('Compile') {
-            steps {
-                echo 'Compile stage running'
-            }
+    post {
+        always {
+            echo 'Pipeline completed'
         }
-
-        stage('Deploy') {
-            steps {
-                echo 'Deploy stage running'
-            }
+        success {
+            echo 'Automation executed successfully'
+        }
+        failure {
+            echo 'Automation failed'
         }
     }
 }
