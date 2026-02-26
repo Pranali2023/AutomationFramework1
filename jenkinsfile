@@ -4,26 +4,25 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building the Project...'
-                powershell 'Write-Output "Build stage running"'
+                echo 'Build stage running'
             }
         }
 
         stage('Test') {
             steps {
-                powershell 'Write-Output "Test stage running"'
+                echo 'Test stage running'
             }
         }
 
         stage('Compile') {
             steps {
-                powershell 'Write-Output "Compile stage running"'
+                echo 'Compile stage running'
             }
         }
 
         stage('Deploy') {
             steps {
-                powershell 'Write-Output "Deploy stage running"'
+                echo 'Deploy stage running'
             }
         }
     }
