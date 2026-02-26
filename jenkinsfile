@@ -5,67 +5,29 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                echo 'Checking out source code...'
+                echo 'Checking out source code'
                 checkout scm
             }
         }
 
         stage('Build') {
             steps {
-                echo 'Building project using Maven Wrapper'
-                bat '"pipeline {
-    agent any
-
-    stages {
-
-        stage('Checkout') {
-            steps {
-                echo 'Checking out source code...'
-                checkout scm
-            }
-        }
-
-        stage('Build') {
-            steps {
-                echo 'Building project using Maven Wrapper'
-                bat '"D:\\Jenkins\\cmd.exe" /c mvnw.cmd clean compile'
+                echo 'Build using Maven Wrapper'
+                bat '"C:\\Windows\\System32\\cmd.exe" /c mvnw.cmd clean compile'
             }
         }
 
         stage('Test') {
             steps {
-                echo 'Running automation tests'
-                bat '"D:\\Jenkins\\cmd.exe" /c mvnw.cmd test'
+                echo 'Run automation tests'
+                bat '"C:\\Windows\\System32\\cmd.exe" /c mvnw.cmd test'
             }
         }
     }
 
     post {
         always {
-            echo 'Pipeline completed'
-        }
-        success {
-            echo 'Automation executed successfully'
-        }
-        failure {
-            echo 'Automation failed'
-        }
-    }
-}\\cmd.exe" /c mvnw.cmd clean compile'
-            }
-        }
-
-        stage('Test') {
-            steps {
-                echo 'Running automation tests'
-                bat '"D:\\Jenkins" /c mvnw.cmd test'
-            }
-        }
-    }
-
-    post {
-        always {
-            echo 'Pipeline completed'
+            echo 'Pipeline finished'
         }
         success {
             echo 'Automation executed successfully'
